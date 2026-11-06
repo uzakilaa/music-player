@@ -1,0 +1,322 @@
+/* Шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Сброс */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* ===== НАВИГАЦИЯ ===== */
+.navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.navigation-logo img {
+  display: block;
+  height: 80px;
+  width: auto;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.navigation-title {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.navigation-title:hover {
+  color: #ff4d4d;
+}
+
+/* ===== HERO ===== */
+.header {
+  position: relative;
+  height: 950px;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 70% 30%, #1b1b1b 0%, #000 65%);
+}
+
+.container-header {
+  position: absolute;
+  top: 220px;
+  left: 120px;
+  z-index: 10;
+}
+
+.title-mp {
+  font-family: 'Stardos Stencil', sans-serif;
+  font-size: 130px;
+  line-height: 115px;
+  letter-spacing: 2px;
+}
+
+.title-info {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 40px;
+  color: #d6d6d6;
+}
+
+.hero-headset {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 760px;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.hero-phone {
+  position: absolute;
+  top: 90px;
+  right: 130px;
+  width: 500px;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.8));
+  z-index: 5;
+}
+
+.hero-cable {
+  position: absolute;
+  bottom: 0;
+  right: 270px;
+  z-index: 2;
+}
+
+/* ===== MUSIC ===== */
+.main-music {
+  background-color: #ff4d00;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.main-music h2 {
+  margin-bottom: 40px;
+}
+
+.main-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.main-music-button,
+.dowld-button {
+  display: inline-block;
+  padding: 15px 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.main-music-button:hover,
+.dowld-button:hover {
+  transform: scale(1.05);
+  background-color: #222;
+}
+
+.main-back-img {
+  width: 380px;
+  margin-top: 40px;
+}
+
+/* ===== ABOUT ===== */
+.section-about {
+  text-align: center;
+  padding: 100px 20px 80px;
+}
+
+.section-about p {
+  margin: 40px auto 0;
+  max-width: 800px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #d3d3d3;
+}
+
+/* ===== STORE ===== */
+.main-2 {
+  background-color: #ff4d00;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.dowld {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.last {
+  margin: 60px auto 0;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.last-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.last-text a {
+  color: #000;
+  background: #fff;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.laptop {
+  width: 650px;
+  margin-top: 60px;
+}
+
+/* ===== FOOTER ===== */
+.page_footer {
+  padding: 80px 100px;
+}
+
+.footer_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.footer_list h3 {
+  font-size: 20px;
+}
+
+.footer_list p {
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.last_img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-top: 1px solid #333;
+  padding-top: 30px;
+}
+
+.last_img img {
+  height: 80px;
+  width: auto;
+}
+
+.last_h {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* ===== АДАПТИВ ===== */
+@media (max-width: 1200px) {
+  .container-header { left: 60px; }
+  .title-mp { font-size: 96px; line-height: 88px; }
+  .hero-phone { right: 40px; width: 400px; }
+  .hero-headset { width: 560px; }
+  .hero-cable { right: 160px; }
+}
+
+@media (max-width: 860px) {
+  .navigation { padding: 20px 24px; }
+  .navigation-logo img { height: 56px; }
+  .navigation-list { gap: 20px; }
+
+  .header {
+    height: auto;
+    padding: 140px 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container-header { position: static; }
+  .title-mp { font-size: 64px; line-height: 60px; }
+  .title-info { margin-top: 20px; }
+
+  .hero-phone {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 280px;
+    margin-top: 40px;
+  }
+
+  .hero-headset,
+  .hero-cable { display: none; }
+
+  .main-music,
+  .main-2 { padding: 80px 20px; }
+
+  .page_footer { padding: 60px 24px; }
+}
+
+@media (max-width: 480px) {
+  .navigation { flex-direction: column; gap: 12px; }
+  .navigation-list { gap: 16px; }
+  .header { padding-top: 170px; }
+  .title-mp { font-size: 48px; line-height: 46px; }
+  h2 { font-size: 30px; }
+}

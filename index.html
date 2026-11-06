@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Music Player — лендинг музыкального сервиса. Учебный проект на HTML и CSS.">
+    <title>Music Player — лендинг</title>
+    <link rel="icon" href="img/icon-music.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="home">
+        <nav class="navigation">
+            <a href="#home" class="navigation-logo"><img src="img/logo.png" alt="Music Player" width="53" height="80"></a>
+            <ul class="navigation-list">
+                <li><a href="#home" class="navigation-title">Home</a></li>
+                <li><a href="#music" class="navigation-title">Music</a></li>
+                <li><a href="#about" class="navigation-title">About</a></li>
+                <li><a href="#store" class="navigation-title">Store</a></li>
+            </ul>
+        </nav>
+
+        <div class="container-header">
+            <h1 class="title-mp">MUSIC <br>PLAYER</h1>
+            <p class="title-info">American company formed in 2002 in <br>Boston, Massachusetts</p>
+        </div>
+        <img class="hero-headset" src="img/headset.png" alt="" aria-hidden="true">
+        <img class="hero-phone" src="img/phone.png" alt="Интерфейс приложения Music Player">
+        <img class="hero-cable" src="img/cable.png" alt="" aria-hidden="true">
+    </header>
+
+    <main>
+        <section class="main-music" id="music">
+            <h2>Music</h2>
+            <div class="main-button">
+                <button class="main-music-button" type="button">Listen now</button>
+                <button class="main-music-button" type="button">Find a song...</button>
+            </div>
+            <img class="main-back-img" src="img/music-hero.png" alt="Плеер на смартфоне">
+        </section>
+
+        <section class="section-about" id="about">
+            <h2>About</h2>
+            <p>
+                MusicPlayer gives you instant access to millions of songs – from old favorites to the latest hits. Just hit play to stream anything you like.
+            </p>
+        </section>
+
+        <section class="main-2" id="store">
+            <h2>Store</h2>
+            <div class="dowld">
+                <a class="dowld-button" href="#store">Download Windows x64</a>
+                <a class="dowld-button" href="#store">Download macOS</a>
+            </div>
+
+            <div class="last">
+                <p>Нужна предыдущая версия MPlayer?</p>
+                <p class="last-text">Вы можете скачать одну из предыдущих версий MPlayer, которая совместима с нужной вам версией операционной системы и определёнными устройствами.
+                    <a href="#store">Выберите предыдущую версию MPlayer</a></p>
+            </div>
+            <img class="laptop" src="img/macbook.png" alt="Music Player на ноутбуке">
+        </section>
+    </main>
+
+    <footer class="page_footer">
+        <div class="footer_list">
+            <div>
+                <h3><a href="#store">MPlayer Store</a></h3>
+                <p>Варианты оплаты<br>Состояние заказа<br>Помощь при покупке</p>
+            </div>
+            <div>
+                <h3><a href="#about">Ценности MPlayer</a></h3>
+                <p>Универсальный доступ<br>Окружающая среда<br>Конфиденциальность</p>
+            </div>
+            <div>
+                <h3><a href="#home">Учётная запись</a></h3>
+                <p>Управление вашим MPlayer ID<br>Учётная запись MPlayer Store</p>
+            </div>
+        </div>
+        <div class="last_img">
+            <img src="img/logo-footer.png" alt="Music Player">
+            <div class="last_h">
+                <span>© MPlayer Inc. Все права защищены.</span>
+                <span>Условия использования</span>
+                <span>Продажа и возврат</span>
+                <span>Юридическая информация</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
